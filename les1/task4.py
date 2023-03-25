@@ -1,0 +1,7 @@
+first =int(input())
+second =int(input())
+third =int(input())
+result1= (sum([first,second,third]))
+result2= (min(second,first,third))
+result3= (max(second,first,third))
+print (result1,result2,result3)

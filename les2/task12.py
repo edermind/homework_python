@@ -1,0 +1,5 @@
+link = input()
+piece_price1 = (str(link[6]))
+piece_price2 = (str(link[13:16]))
+action1 = int(piece_price1 + piece_price2)
+print (action1 + 1)

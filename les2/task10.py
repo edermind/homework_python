@@ -1,0 +1,6 @@
+phone_number = input()
+action1 = (phone_number.replace('-',''))
+action2 = (action1.replace(' ',''))
+action3 = (action2.replace('(',''))
+action4 = (action3.replace(')',''))
+print (action4)
